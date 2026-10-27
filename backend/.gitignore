@@ -1,0 +1,30 @@
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.sqlite
+*.sqlite3
+*.db
+chromaDB/
+
+uploads/
+data/
+logs/
+
+# Local model and tool caches
+.cache/
+models/
+model_cache/
+
+# Uploaded documents and local exports
+*.pdf
+*.doc
+*.docx
+*.txt
+!requirements.txt
+!README.md
